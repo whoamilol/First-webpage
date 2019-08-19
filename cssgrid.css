@@ -1,8 +1,13 @@
-.wrap {
-	display: flex;
-	justify-content:
-					space-between;
-	border: 5px solid red;
+div.page {
+	display: grid;
+	grid-template-columns:
+		2fr 1fr 1fr;
+	grid-template-rows:
+		auto 1fr 3fr;
+	grid-template-areas:
+		"title title title"
+		"main header header"
+		"main sidebar footer";
 }
 
 .main-content {
