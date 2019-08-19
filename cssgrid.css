@@ -23,9 +23,3 @@
 
 }
 
-/* Clearfix*/
-.wrap:after{
-	content: "";
-	display: table;
-	clear: both;
-}
