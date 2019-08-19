@@ -1,0 +1,114 @@
+*{box-sizing: border-box;
+}
+/*Top navigation bar*/
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: pink;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  border: 2px solid black;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: white;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+body{
+
+  background-color: pink;
+ 
+
+  
+
+  
+
+  
+}
+
+header{
+  
+}
+
+main {
+  padding:20px;
+}
+
+aside{
+  border: solid black;
+  width: 30%;
+  float: right;
+  background-color: pink;
+  
+}
+
+aside a {
+  
+  color: red;
+}
+
+aside h2 {
+  color: blue;
+  padding-left: 10px;
+
+}
+
+section {
+  width: 70%;
+  float: left;
+  border: 5px solid black;
+ }
+
+section h2{
+ 
+}
+h1{
+  font-size: 50px;
+}
+
+p{
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+footer{
+  position: static;
+  width: 100%;
+
+  
+}
+
+.imageshere {
+  
+  display: flex;
+  flex-wrap:wrap;
+  border: 5px solid black;
+  align-content: space-between;
+
+}
+
+ul.imageshere {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
