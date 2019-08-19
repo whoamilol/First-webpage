@@ -1,0 +1,11 @@
+.wrap {
+	border: 5px solid red;
+}
+
+.main-content {
+	background: blue;
+}
+
+.sidebar {
+	background: green;
+}
