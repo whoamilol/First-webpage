@@ -24,3 +24,20 @@ div.page {
 
 }
 
+.sidebar {
+	grid-area: sidebar;
+}
+
+.footer {
+	grid-area: footer;
+}
+
+@media screen and (min-width: 34em) {
+
+	.site {
+		grid-template-areas:
+		"title title title"
+		"main header header"
+		"main sidebar footer";
+	}
+}
