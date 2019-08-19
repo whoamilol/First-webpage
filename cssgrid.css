@@ -3,9 +3,15 @@
 }
 
 .main-content {
+	width: 45%
+	float: left;
 	background: blue;
 }
 
 .sidebar {
+	width: 45%;
+	float: right;
 	background: green;
+	
+
 }
