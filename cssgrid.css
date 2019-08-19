@@ -1,4 +1,7 @@
 .wrap {
+	display: flex;
+	justify-content:
+					space-between;
 	border: 5px solid red;
 }
 
@@ -6,6 +9,10 @@
 	width: 45%
 	float: left;
 	background: blue;
+}
+
+.other-content {
+	background: purple;
 }
 
 .sidebar {
